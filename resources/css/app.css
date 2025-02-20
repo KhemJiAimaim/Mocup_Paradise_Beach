@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* กำหนดความกว้างและพื้นหลังของ scrollbar */
+::-webkit-scrollbar {
+    width: 5px; /* ความกว้างของ scrollbar */
+    background: #14292e; /* พื้นหลังของ scrollbar */
+}
+
+/* กำหนดสไตล์ของ thumb (ส่วนที่เลื่อนของ scrollbar) */
+::-webkit-scrollbar-thumb {
+    background-color: #14292e; /* สีของ scrollbar thumb */
+    border-radius: 10px; /* ความโค้งของ scrollbar thumb */
+}
+
+/* กำหนดสไตล์ของ scrollbar เมื่อ hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #ff864e; /* เปลี่ยนสีเมื่อ hover */
+}
+
+/* กำหนดสไตล์ของ track (ส่วนพื้นหลังของ scrollbar) */
+::-webkit-scrollbar-track {
+    background: #14292e; /* พื้นหลังของ track */
+}
+
+.m-nav {
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    transform: translateX(100%);
+    opacity: 0;
+}
+
+.m-nav.active {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+HTML CSSResult Skip Results Iframe EDIT ON body {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+.ham {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: transform 400ms;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.hamRotate.active {
+    transform: rotate(180deg);
+}
+.hamRotate180.active {
+    transform: rotate(180deg);
+}
+.line {
+    fill: none;
+    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    stroke: #ffffff;
+    stroke-width: 5.5;
+    stroke-linecap: round;
+}
+.ham1 .top {
+    stroke-dasharray: 40 139;
+}
+.ham1 .bottom {
+    stroke-dasharray: 40 180;
+}
+
+.ham2 .top {
+    stroke-dasharray: 40 121;
+}
+.ham2 .bottom {
+    stroke-dasharray: 40 121;
+}
+
+.ham3 .top {
+    stroke-dasharray: 40 130;
+}
+.ham3 .middle {
+    stroke-dasharray: 40 140;
+}
+.ham3 .bottom {
+    stroke-dasharray: 40 205;
+}
+
+.ham4 .top {
+    stroke-dasharray: 40 121;
+}
+.ham4 .bottom {
+    stroke-dasharray: 40 121;
+}
+.ham4.active .top {
+    stroke-dashoffset: -68px;
+}
+.ham4.active .bottom {
+    stroke-dashoffset: -68px;
+}
+.ham5 .top {
+    stroke-dasharray: 40 82;
+}
+.ham5 .bottom {
+    stroke-dasharray: 40 82;
+}
+.ham5.active .top {
+    stroke-dasharray: 14 82;
+    stroke-dashoffset: -72px;
+}
+.ham5.active .bottom {
+    stroke-dasharray: 14 82;
+    stroke-dashoffset: -72px;
+}
+.ham6 .top {
+    stroke-dasharray: 40 172;
+}
+.ham6 .middle {
+    stroke-dasharray: 40 111;
+}
+.ham6 .bottom {
+    stroke-dasharray: 40 172;
+}
+.ham6.active .top {
+    stroke-dashoffset: -132px;
+}
+.ham6.active .middle {
+    stroke-dashoffset: -71px;
+}
+.ham6.active .bottom {
+    stroke-dashoffset: -132px;
+}
+.ham7 .top {
+    stroke-dasharray: 40 82;
+}
+.ham7 .middle {
+    stroke-dasharray: 40 111;
+}
+.ham7 .bottom {
+    stroke-dasharray: 40 161;
+}
+.ham7.active .top {
+    stroke-dasharray: 17 82;
+    stroke-dashoffset: -62px;
+}
+.ham7.active .middle {
+    stroke-dashoffset: 23px;
+}
+.ham7.active .bottom {
+    stroke-dashoffset: -83px;
+}
+.ham8 .top {
+    stroke-dasharray: 40 160;
+}
+.ham8 .middle {
+    stroke-dasharray: 40 142;
+    transform-origin: 50%;
+    transition: transform 400ms;
+}
+.ham8 .bottom {
+    stroke-dasharray: 40 85;
+    transform-origin: 50%;
+    transition: transform 400ms, stroke-dashoffset 400ms;
+}
+.ham8.active .top {
+    stroke-dashoffset: -64px;
+}
+.ham8.active .middle {
+    stroke-dashoffset: -20px;
+    transform: rotate(90deg);
+}
+.ham8.active .bottom {
+    stroke-dashoffset: -64px;
+}
+
+/* เพิ่มความชัดเจน */
+/* ::placeholder {
+    color: rgb(238, 238, 238) !important;
+    opacity: 1; 
+} */

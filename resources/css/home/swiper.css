@@ -1,0 +1,67 @@
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-pagination{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.swiper-horizontal>.swiper-pagination-bullets,.swiper-pagination-bullets.swiper-pagination-horizontal,.swiper-pagination-custom,.swiper-pagination-fraction {
+    top: 50%;
+    left: 95%;
+}
+
+.swiper-pagination-bullet {
+    width: 10px !important; 
+    height: 10px !important; 
+    background: transparent !important; /* เปลี่ยนพื้นหลังให้โปร่งใส */
+    border: 2px solid #fff !important; /* กำหนดเส้นขอบสีขาว */
+    opacity: 1 !important; /* ให้แสดงผลเต็มที่ */
+}
+
+.swiper-pagination-bullet-active {
+    background: #fff !important; /* เมื่อ active ให้มีพื้นหลังสีขาว */
+    border: 2px solid #fff !important; /* ยังคงมีเส้นขอบ */
+}
+
+.swiper-button-next:after, .swiper-button-prev:after{
+    color: #fff !important;
+    font-size: 25px !important;
+}
