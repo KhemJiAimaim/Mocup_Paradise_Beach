@@ -14,15 +14,14 @@
     <div
         class="absolute inset-0 z-50  flex flex-col justify-center items-center gap-y-4  max-sm:gap-y-1 max-w-[1536px] ss:m-auto mx-4">
         <div class="flex flex-col sm:gap-y-8 border-4 border-[#03203E] ss:p-6 p-2 w-[80%]">
-            <p class="xl:text-8xl lg:text-6xl md:text-3xl text-2xl capitalize text-white text-center font-[700] ss:tracking-[8px] tracking-widest"
-                data-aos="zoom-in" data-aos-duration="800" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
+            <div class="xl:text-8xl lg:text-6xl md:text-3xl text-2xl capitalize text-white text-center font-[700] ss:tracking-[8px] tracking-widest animate__animated animate__zoomIn" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
                     terms & conditions
-                </p>
+                </div>
             </div>
         </div>
 
         <div class="relative w-full h-[500px] max-2xl:h-[400px] max-lg:h-[250px] max-md:h-[150px]">
-            <img src="/images/Gallery/Head-bar-1.png" alt="Banner Image" class="w-full h-full object-cover">
+            <img src="/images/Gallery/Head-slide-3.jpg" alt="Banner Image" class="w-full h-full object-cover">
             <div class="absolute top-0 left-0 w-full h-full bg-[#03203E] opacity-50"></div>
         </div>
     </section>

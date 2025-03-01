@@ -15,10 +15,10 @@
         <div
             class="absolute inset-0 z-50  flex flex-col justify-center items-center gap-y-4  max-sm:gap-y-1 max-w-[1536px] ss:m-auto mx-4">
             <div class="flex flex-col sm:gap-y-8 border-4 border-[#03203E] md:p-12 p-6 ss:w-[60%] w-full">
-                <p class="xl:text-8xl lg:text-6xl text-4xl capitalize text-white text-center font-[700] ss:tracking-[8px] tracking-widest"
-                    data-aos="zoom-in" data-aos-duration="800" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
+                <div class="xl:text-8xl lg:text-6xl text-4xl capitalize text-white text-center font-[700] ss:tracking-[8px] tracking-widest animate__animated animate__zoomIn"
+                    style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
                     room
-                </p>
+                </div>
             </div>
         </div>
 
@@ -325,7 +325,7 @@
                     {{-- 1 --}}
                     <div class="swiper-slide">
                         <a href="{{ route('eat_drink.index') }}"
-                            class="relative group transition-all duration-300 ease-in-out w-full">
+                            class="relative group transition-all duration-300 ease-in-out lg:w-[450px] w-[320px]">
                             <div class="absolute inset-0 z-50 flex justify-center items-center m-4 border-2">
                                 <div
                                     class="bg-[#162250] group-hover:border-[#c5a880] group-hover:bg-[#c5a880] transition-all duration-300 ease-in-out flex flex-col justify-center items-center gap-2 p-4 w-full absolute shadow-lg top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
@@ -343,7 +343,7 @@
                     {{-- 2 --}}
                     <div class="swiper-slide">
                         <a href="{{ route('rooms.index') }}"
-                            class="relative group transition-all duration-300 ease-in-out w-full">
+                            class="relative group transition-all duration-300 ease-in-out lg:w-[450px] w-[320px]">
                             <div class="absolute inset-0 z-50 flex justify-center items-center m-4 border-2">
                                 <div
                                     class="bg-[#162250] group-hover:border-[#c5a880] group-hover:bg-[#c5a880] transition-all duration-300 ease-in-out flex flex-col justify-center items-center gap-2 p-4 w-full absolute shadow-lg top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
@@ -362,7 +362,7 @@
                     {{-- 3 --}}
                     <div class="swiper-slide">
                         <a href="{{ route('gallery.index') }}"
-                            class="relative group transition-all duration-300 ease-in-out w-full">
+                            class="relative group transition-all duration-300 ease-in-out lg:w-[450px] w-[320px]">
                             <div class="absolute inset-0 z-50 flex justify-center items-center m-4 border-2">
                                 <div
                                     class="bg-[#162250] group-hover:border-[#c5a880] group-hover:bg-[#c5a880] transition-all duration-300 ease-in-out flex flex-col justify-center items-center gap-2 p-4 w-full absolute shadow-lg top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">

@@ -15,10 +15,10 @@
         <div
             class="absolute inset-0 z-50  flex flex-col justify-center items-center gap-y-4  max-sm:gap-y-1 max-w-[1536px] ss:m-auto mx-4">
             <div class="flex flex-col sm:gap-y-8 border-4 border-[#03203E] md:p-12 p-6 ss:w-[60%] w-full">
-                <p class="xl:text-8xl lg:text-6xl text-4xl capitalize text-white text-center font-[700] ss:tracking-[8px] tracking-widest"
-                    data-aos="zoom-in" data-aos-duration="800" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
+                <div class="xl:text-8xl lg:text-6xl text-4xl capitalize text-white text-center font-[700] ss:tracking-[8px] tracking-widest animate__animated animate__zoomIn"
+                    style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
                     spa & gym
-                </p>
+                </div>
             </div>
         </div>
 
@@ -91,7 +91,7 @@
             <div class="max-w-[1320px] m-auto" data-aos="fade-up" data-aos-duration="500">
 
                 {{-- 1 --}}
-                <div 
+                <div
                     class="flex md:flex-row flex-col justify-between gap-4 lg:gap-y-8 gap-y-4 z-50 lg:mt-16 mt-[30px] border-0 md:border-r-[6px] border-[#025370] items-center">
 
                     {{-- img --}}
@@ -137,7 +137,8 @@
                     <div
                         class="w-full h-auto flex flex-col xl:gap-12 lg:gap-8 gap-4 justify-start items-start lg:p-[30px] md:p-2 ">
                         <div class="flex flex-col gap-2">
-                            <span class="lg:text-3xl md:text-2xl text-xl font-kanit text-[#03203E] tracking-widest ">Spa days & Spa
+                            <span class="lg:text-3xl md:text-2xl text-xl font-kanit text-[#03203E] tracking-widest ">Spa
+                                days & Spa
                                 breaks</span>
                             <div class="border-t-2 border-gray-400 max-w-[3rem] w-full rounded-full"></div>
                         </div>
@@ -158,7 +159,7 @@
                 </div>
 
                 {{-- 2 --}}
-                <div 
+                <div
                     class="flex md:flex-row flex-col justify-between gap-4 lg:gap-y-8 gap-y-4 z-50 lg:mt-16 mt-[30px] border-0 md:border-l-[6px] border-[#025370] items-center">
 
                     <div
@@ -221,7 +222,7 @@
                 </div>
 
                 {{-- 3 --}}
-                <div 
+                <div
                     class="flex md:flex-row flex-col justify-between gap-4 lg:gap-y-8 gap-y-4 z-50 md:mt-20 mt-10 border-0 md:border-r-[6px] border-[#025370] items-center">
 
                     {{-- img --}}
@@ -296,7 +297,7 @@
                     {{-- 1 --}}
                     <div class="swiper-slide">
                         <a href="{{ route('eat_drink.index') }}"
-                            class="relative group transition-all duration-300 ease-in-out w-full">
+                            class="relative group transition-all duration-300 ease-in-out lg:w-[450px] w-[320px]">
                             <div class="absolute inset-0 z-50 flex justify-center items-center m-4 border-2">
                                 <div
                                     class="bg-[#162250] group-hover:border-[#c5a880] group-hover:bg-[#c5a880] transition-all duration-300 ease-in-out flex flex-col justify-center items-center gap-2 p-4 w-full absolute shadow-lg top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
@@ -306,7 +307,8 @@
                                 <img src="/images/Room/Gallery-2.jpg" alt="" class="w-full h-full object-cover">
                             </div>
                             <div class="relative w-full h-[500px] max-2xl:h-[400px] max-lg:h-[250px] max-md:h-[350px]">
-                                <img src="/images/Room/Gallery-2.jpg" alt="Banner Image" class="w-full h-full object-cover">
+                                <img src="/images/Room/Gallery-2.jpg" alt="Banner Image"
+                                    class="w-full h-full object-cover">
                                 <div class="absolute top-0 left-0 w-full h-full bg-white/30 backdrop-blur-sm"></div>
                             </div>
                         </a>
@@ -314,7 +316,7 @@
                     {{-- 2 --}}
                     <div class="swiper-slide">
                         <a href="{{ route('rooms.index') }}"
-                            class="relative group transition-all duration-300 ease-in-out w-full">
+                            class="relative group transition-all duration-300 ease-in-out lg:w-[450px] w-[320px]">
                             <div class="absolute inset-0 z-50 flex justify-center items-center m-4 border-2">
                                 <div
                                     class="bg-[#162250] group-hover:border-[#c5a880] group-hover:bg-[#c5a880] transition-all duration-300 ease-in-out flex flex-col justify-center items-center gap-2 p-4 w-full absolute shadow-lg top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
@@ -324,7 +326,8 @@
                                 <img src="/images/Room/Gallery-12.jpg" alt="" class="w-full h-full object-cover">
                             </div>
                             <div class="relative w-full h-[500px] max-2xl:h-[400px] max-lg:h-[250px] max-md:h-[350px]">
-                                <img src="/images/Room/Gallery-12.jpg" alt="Banner Image" class="w-full h-full object-cover">
+                                <img src="/images/Room/Gallery-12.jpg" alt="Banner Image"
+                                    class="w-full h-full object-cover">
                                 <div class="absolute top-0 left-0 w-full h-full bg-white/30 backdrop-blur-sm"></div>
                             </div>
                         </a>
@@ -333,7 +336,7 @@
                     {{-- 3 --}}
                     <div class="swiper-slide">
                         <a href="{{ route('gallery.index') }}"
-                            class="relative group transition-all duration-300 ease-in-out w-full">
+                            class="relative group transition-all duration-300 ease-in-out lg:w-[450px] w-[320px]">
                             <div class="absolute inset-0 z-50 flex justify-center items-center m-4 border-2">
                                 <div
                                     class="bg-[#162250] group-hover:border-[#c5a880] group-hover:bg-[#c5a880] transition-all duration-300 ease-in-out flex flex-col justify-center items-center gap-2 p-4 w-full absolute shadow-lg top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
@@ -343,7 +346,8 @@
                                 <img src="/images/Room/Gallery-11.jpg" alt="" class="w-full h-full object-cover">
                             </div>
                             <div class="relative w-full h-[500px] max-2xl:h-[400px] max-lg:h-[250px] max-md:h-[350px]">
-                                <img src="/images/Room/Gallery-11.jpg" alt="Banner Image" class="w-full h-full object-cover">
+                                <img src="/images/Room/Gallery-11.jpg" alt="Banner Image"
+                                    class="w-full h-full object-cover">
                                 <div class="absolute top-0 left-0 w-full h-full bg-white/30 backdrop-blur-sm"></div>
                             </div>
                         </a>

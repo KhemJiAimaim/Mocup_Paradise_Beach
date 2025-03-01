@@ -12,7 +12,6 @@
 @endsection
 
 @section('contents')
-    {{-- @include('pages.home.swiper') --}}
 
     {{-- 1 banner --}}
     <section class="relative h-[600px] max-2xl:h-[500px] max-lg:h-[350px] max-md:h-[250px] ">
